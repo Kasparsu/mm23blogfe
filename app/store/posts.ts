@@ -58,7 +58,6 @@ export const usePostsStore = defineStore('postsStore', {
         console.log(err.response.data);
         this.errors = err.response.data.errors;
       }
-      
     }
   },
 })
