@@ -2,6 +2,7 @@
 import { useAuthStore } from '~/store/auth';
 
 const authStore = useAuthStore();
+authStore.clearErrors();
 const router = useRouter();
 let formData = ref({
    email: '',

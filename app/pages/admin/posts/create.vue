@@ -12,7 +12,6 @@ async function create() {
     if(!postsStore.errors) {
         router.push('/admin/posts');
     }
-    
 }
 </script>
 
